@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.home .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+.home .navbar h1 {
+    width: 30%;
+    text-align: center;
+    color: #6c757d;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+.home .navbar h1 .s1 {
+    color: #fd7e14;
+
+}
+
+.home .navbar h1 .s2 {
+    color: #007aff;
+}
+
+.home .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+
+.home .navbar ul li {
+    margin-top: 15px;
+}
+
+.home .navbar ul li .button {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    color: #6c757d;
+    border-color: #6c757d;
+    border-width: 1px;
+}
+
+.home .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #6c757d;
+    font-family: fantasy;
+}
+
+.home .parent1 {
+    display: flex;
+}
+
+.home .parent1 .intro {
+    text-align: right;
+    width: 40%;
+    margin: 130px 70px 70px 70px;
+    padding: 20px;
+
+}
+
+.home .parent1 .intro h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+
+
+}
+
+.home .parent1 .intro .s1 {
+    color: #fd7e14;
+
+}
+
+.home .parent1 .intro .s2 {
+    color: #007aff;
+}
+
+.home .parent1 .intro .paragh {
+    font-size: 24px;
+    color: #6c757d;
+    text-align: right;
+}
+
+.home .parent1 .intro .bt {
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #007aff;
+    border-color: transparent;
+    color: white;
+}
+
+.home .parent2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.home .parent3 {
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+}
+
+.home .parent2 .par1 {
+    width: 40%;
+    height: auto;
+    padding: 25px;
+    background-color: #f8f9fa;
+}
+.home .parent3 .par1 {
+    width: 40%;
+    height: auto;
+    padding: 25px;
+}
+.home .parent3 .par1 .sora{
+    width: 500px;
+    height: 365px;
+} 
+
+#con{
+    font-size: 40px;
+    color: rgb(74, 163, 163);
+    margin: 10px 0px;
+}
+#l{
+    margin: 5px 0px;
+    color: #4c5257;
+}
+.home .parent3 .par1 .z{
+    line-height: 25px;
+}
+.home .khadamat{
+    background-color: #f8f9fa;
+    text-align: center;
+
+}
+.home .khadamat h1{
+    margin: 20px;
+
+}
+.home .khadamat .parent4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home .khadamat .parent4 #smalldiv{
+    width: 20%;
+    text-align: center;
+    background-color: white;
+}
+i{
+    font-size: 60px;
+    margin: 20px;
+    color: rgb(74, 163, 163);
+
+}
+.home .khadamat .parent4 #w1{
+    color: #6c757d;
+}
+.home .khadamat .parent5 #w1{
+    color: #6c757d;
+}
+.home .khadamat .parent6 #w1{
+    color: #6c757d;
+}
+.home .khadamat .head1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #6c757d;
+    padding-top: 20px;
+}
+.home .khadamat .parent5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.home .khadamat .parent5 #smalldiv {
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    
+}
+.home .khadamat .parent6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.home .khadamat .parent6 #smalldiv {
+    width: 20%;
+    text-align: center;
+    background-color: white;
+}
+.home .khadamat .paro{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.home .twasol{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.home .twasol h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+.home .parent12{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.home .parent12 .parent10{
+    background-color: rgb(248, 249, 250);
+    width: 45%;
+    text-align: right;
+    margin: 10px;
+    padding: 20px;
+    border-top: 3px solid rgb(1, 184, 220);
+    border-bottom: 3px solid rgb(1, 184, 220);
+}
+.home .parent12 .prt1 {
+    background-color: #f8f9fa;
+    width: 30%;
+    text-align: right;
+    margin: 10px 80px 10px 10px;
+    padding: 20px;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+}
